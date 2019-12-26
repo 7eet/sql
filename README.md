@@ -48,7 +48,13 @@
 `mysql> DELETE FROM STUDENTS WHERE name='Pit';` <br>
 
 ## Truncate <br>
-<i> It delete all the fields from the table.</i>
+<i> It delete all the fields from the table.</i> <br>
 `mysql> TURNCATE TABLE table_name;` <br>
+
+## Like operator <br>
+<i> It is used to extract only that records which match the pattern</i>
+`mysql> SELECT * FROM table_name WHERE col_name LIKE 'some_patter';` <br>
+`mysql> SELECT * FROM STUDENTS WHERE name='%ll%';`<br>
+<i> It prints all the fields where the name containes ll in it.</i> <br>
 
 
